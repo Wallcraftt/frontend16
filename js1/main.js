@@ -30,6 +30,44 @@ getSum3()
 
 // task 4) 
 
+function  getRandomInt(max){
+  console.log(max)
+  return Math.random(max = 100) 
+}
 
+// task 5) 
 
-// task 5)
+function getCurrencySymbolFromCode(USD){
+  console.log('USD')
+  return '$';
+}
+
+// tasl 6)
+
+const myArr = [{
+  name: 'Giorgi',
+  age: 18,
+  },
+{
+  name: 'alex',
+  age: 28,
+  },
+{
+  name: 'tea',
+  age: 25,
+  },
+{
+  name: 'mariami',
+  age: 24,
+  },
+{
+  name: 'zura',
+  age: 30,
+  }
+]
+
+myArr.find((el) => {
+
+  return myArr.age = 18
+})
+console.log(myArr)
